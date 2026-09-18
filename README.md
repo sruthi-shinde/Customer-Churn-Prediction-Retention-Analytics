@@ -84,3 +84,12 @@ Churn Risk Segmentation
 Revenue-at-Risk Analysis
      ↓
 Business Recommendations
+
+
+## 📊 Key Results
+- **Total Customers:** 7,043 | **Churned:** 1,869 | **Churn Rate: 26.54%**
+- **Highest Churn Segment:** Month-to-Month Contract - 42.7% churn (vs 11% for 2-year)
+- **Second Driver:** Fiber Optic Internet - 41.9% churn
+- **Third Driver:** Tenure < 12 months - 3x higher churn
+- **Model:** Random Forest - Accuracy 79%, Recall 62% (catches 62% of churners)
+- **Business Impact:** 1,869 high-risk customers identified in high_risk_customers.csv, $500k+ revenue at risk
